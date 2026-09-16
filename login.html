@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Login - RentRoom</title>
+
+    <link rel="stylesheet"
+          href="css/style.css">
+
+</head>
+
+<body>
+
+<header class="navbar">
+
+    <div class="logo">
+        Rent<span>Room</span>
+    </div>
+
+    <a href="index.html">
+        ← Back to Home
+    </a>
+
+</header>
+
+
+<div style="
+    max-width:450px;
+    margin:80px auto;
+    padding:30px;
+    background:white;
+    border:1px solid #e5e7eb;
+    border-radius:14px;
+">
+
+    <h1>Welcome Back</h1>
+
+    <p style="margin:10px 0 25px;color:#64748b;">
+        Login to your RentRoom account.
+    </p>
+
+
+    <form onsubmit="loginUser(event)">
+
+        <label>Email</label>
+
+        <input
+            id="loginEmail"
+            type="email"
+            required
+            placeholder="Enter your email"
+            style="
+                width:100%;
+                padding:14px;
+                margin:8px 0 18px;
+                border:1px solid #d1d5db;
+                border-radius:8px;
+            "
+        >
+
+
+        <label>Password</label>
+
+        <input
+            id="loginPassword"
+            type="password"
+            required
+            placeholder="Enter password"
+            style="
+                width:100%;
+                padding:14px;
+                margin:8px 0 20px;
+                border:1px solid #d1d5db;
+                border-radius:8px;
+            "
+        >
+
+
+        <button
+            type="submit"
+            style="
+                width:100%;
+                padding:14px;
+                border:none;
+                background:#2563eb;
+                color:white;
+                border-radius:8px;
+                cursor:pointer;
+            "
+        >
+            Login
+        </button>
+
+    </form>
+
+
+    <p style="margin-top:20px;">
+        Don't have an account?
+        <a href="register.html"
+           style="color:#2563eb;">
+            Create Account
+        </a>
+    </p>
+
+</div>
+
+
+<script>
+
+function loginUser(event) {
+
+    event.preventDefault();
+
+    alert("Login successful! Backend will be connected later.");
+
+}
+
+</script>
+
+</body>
+</html>
