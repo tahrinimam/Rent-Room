@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RentRoom - Find Your Perfect Room</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header class="navbar">
+    <div class="logo">Rent<span>Room</span></div>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="rooms.html">Rooms</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="nav-buttons">
+        <a href="login.html" class="login-btn">Login</a>
+        <a href="register.html" class="signup-btn">Sign Up</a>
+    </div>
+</header>
+
+<section class="hero">
+
+    <div class="hero-content">
+        <p class="small-title">FIND YOUR NEXT HOME</p>
+
+        <h1>Find a Room<br>
+            <span>You'll Love</span>
+        </h1>
+
+        <p>
+            Discover comfortable and affordable rooms,
+            flats and shared spaces near you.
+        </p>
+
+        <div class="search-box">
+            <input type="text" id="locationSearch"
+                   placeholder="Search location...">
+
+            <select id="roomType">
+                <option value="">Room Type</option>
+                <option value="Single Room">Single Room</option>
+                <option value="Shared Room">Shared Room</option>
+                <option value="1 BHK">1 BHK</option>
+                <option value="2 BHK">2 BHK</option>
+            </select>
+
+            <button onclick="searchRooms()">Search</button>
+        </div>
+    </div>
+
+</section>
+
+<section class="features">
+
+    <div class="feature-card">
+        <div class="feature-icon">🏠</div>
+        <h3>Verified Rooms</h3>
+        <p>Explore reliable room listings.</p>
+    </div>
+
+    <div class="feature-card">
+        <div class="feature-icon">💰</div>
+        <h3>Affordable Rent</h3>
+        <p>Find rooms that match your budget.</p>
+    </div>
+
+    <div class="feature-card">
+        <div class="feature-icon">📍</div>
+        <h3>Great Locations</h3>
+        <p>Search rooms near your preferred location.</p>
+    </div>
+
+    <div class="feature-card">
+        <div class="feature-icon">🔒</div>
+        <h3>Easy Booking</h3>
+        <p>Book your preferred room easily.</p>
+    </div>
+
+</section>
+
+<section class="popular">
+
+    <div class="section-heading">
+        <div>
+            <p class="small-title">EXPLORE</p>
+            <h2>Popular Rooms</h2>
+        </div>
+
+        <a href="rooms.html">View All →</a>
+    </div>
+
+    <div class="room-grid">
+
+        <div class="room-card">
+            <img src="https://images.unsplash.com/photo-1522708323590-d24dbb6b0267"
+                 alt="Room">
+
+            <div class="room-info">
+                <span class="room-tag">Available</span>
+
+                <h3>Modern Single Room</h3>
+
+                <p>📍 Bhubaneswar, Odisha</p>
+
+                <div class="room-bottom">
+                    <strong>₹7,000/month</strong>
+                    <a href="room-details.html">View</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="room-card">
+            <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85"
+                 alt="Room">
+
+            <div class="room-info">
+                <span class="room-tag">Available</span>
+
+                <h3>Premium Bedroom</h3>
+
+                <p>📍 Dhanbad, Jharkhand</p>
+
+                <div class="room-bottom">
+                    <strong>₹8,500/month</strong>
+                    <a href="room-details.html">View</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="room-card">
+            <img src="https://images.unsplash.com/photo-1560185008-b033106af5c3"
+                 alt="Room">
+
+            <div class="room-info">
+                <span class="room-tag">Available</span>
+
+                <h3>Comfortable 1 BHK</h3>
+
+                <p>📍 Ranchi, Jharkhand</p>
+
+                <div class="room-bottom">
+                    <strong>₹12,000/month</strong>
+                    <a href="room-details.html">View</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="about" id="about">
+
+    <div>
+        <p class="small-title">ABOUT RENTROOM</p>
+        <h2>Making Room Hunting Simple</h2>
+    </div>
+
+    <p>
+        RentRoom helps students, professionals and families
+        find suitable rooms and rental properties without
+        wasting time searching through multiple platforms.
+    </p>
+
+</section>
+
+<footer id="contact">
+
+    <div class="footer-logo">Rent<span>Room</span></div>
+
+    <p>Find your perfect place to stay.</p>
+
+    <p>© 2026 RentRoom. All rights reserved.</p>
+
+</footer>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
